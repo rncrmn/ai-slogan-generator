@@ -1,3 +1,7 @@
+## Slogan Generator Powered by AI
+
+![Slogan Generator Powered by AI](https://user-images.githubusercontent.com/55722725/224557866-f666cffd-564b-48a5-a859-be9a2fd34648.png)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
