@@ -47,13 +47,13 @@ const SloganForm: Component = () => {
   return (
     <form class="ts-generator__form text-center">
       <input
-        class="ts-generator__input w-full text-lg border-[3px] p-3 mb-8"
+        class="ts-generator__input w-full text-md md:text-lg border-[3px] p-3 mb-6 md:mb-8"
         placeholder="Note App in Blockchain"
         value={inputText()}
         onInput={(e) => handleInputChange(e)}
       />
       <button
-        class="rounded relative inline-flex text-lg font-semibold group items-center justify-center px-3.5 py-2 cursor-pointer border-b-4 border-l-2 active:border-purple-600 active:shadow-none shadow-lg bg-gradient-to-tr from-purple-600 to-purple-500 border-purple-700 text-white"
+        class="rounded relative inline-flex text-md md:text-lg font-semibold group items-center justify-center px-3.5 py-2 cursor-pointer border-b-4 border-l-2 active:border-purple-600 active:shadow-none shadow-lg bg-gradient-to-tr from-purple-600 to-purple-500 border-purple-700 text-white"
         onClick={(e) => handleSubmit(e)}
         type="button"
       >
